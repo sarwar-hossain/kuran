@@ -120,22 +120,22 @@
 </head>
 <body>
     <div class="viewer-container">
-        <h1>Image Viewer</h1>
+        <h1>Al Kuran</h1>
         
         <div class="image-container" id="imageContainer">
             <p class="loading">Loading images...</p>
             <!-- Images will be inserted here by JavaScript -->
+        </div>
+
+        <div class="navigation">
+            <button class="nav-button" id="prevButton" disabled>Previous</button>
+            <button class="nav-button" id="nextButton" disabled>Next</button>
         </div>
         
         <div class="page-input-container">
             <span>Go to page:</span>
             <input type="number" id="pageInput" class="page-input" min="0" value="0">
             <button id="goButton" class="go-button">Go</button>
-        </div>
-        
-        <div class="navigation">
-            <button class="nav-button" id="prevButton" disabled>Previous</button>
-            <button class="nav-button" id="nextButton" disabled>Next</button>
         </div>
         
         <div class="image-info" id="imageInfo">
